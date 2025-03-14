@@ -1,7 +1,7 @@
 === bizenta ===
 Contributors: tskk
 Donate link: 
-Tags: woocommerce
+Tags: 
 Requires at least: 6.0
 Tested up to: 6.2
 Stable tag: 1.0.1

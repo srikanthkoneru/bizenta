@@ -4,19 +4,19 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitac80d0e5edb937c76cbcbb46fd7d56d6
+class ComposerStaticInit255aef7f476e5d391ab1cc93460885c9
 {
     public static $classMap = array (
-        'ComposerAutoloaderInitac80d0e5edb937c76cbcbb46fd7d56d6' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'ComposerAutoloaderInit255aef7f476e5d391ab1cc93460885c9' => __DIR__ . '/..' . '/composer/autoload_real.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
-        'Composer\\Autoload\\ComposerStaticInitac80d0e5edb937c76cbcbb46fd7d56d6' => __DIR__ . '/..' . '/composer/autoload_static.php',
+        'Composer\\Autoload\\ComposerStaticInit255aef7f476e5d391ab1cc93460885c9' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->classMap = ComposerStaticInitac80d0e5edb937c76cbcbb46fd7d56d6::$classMap;
+            $loader->classMap = ComposerStaticInit255aef7f476e5d391ab1cc93460885c9::$classMap;
 
         }, null, ClassLoader::class);
     }
