@@ -1,0 +1,100 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.5/theme.json",
+	"version": 2,
+    "title": "Green",
+	"settings": {
+        "color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#f8f8f8",
+					"name": "Base / Two",
+					"slug": "base-2"
+				},
+				{
+					"color": "#f0f0f0",
+					"name": "Base / Three",
+					"slug": "base-3"
+				},
+				{
+					"color": "#e5e6e8",
+					"name": "Base / Four",
+					"slug": "base-4"
+				},
+				{
+					"color": "#C9CBCF",
+					"name": "Base / Five",
+					"slug": "base-5"
+				},
+				{
+					"color": "#BEC1C5",
+					"name": "Base / Six",
+					"slug": "base-6"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#636363",
+					"name": "Contrast / Two",
+					"slug": "contrast-2"
+				},
+				{
+					"color": "#A4A4A4",
+					"name": "Contrast / Three",
+					"slug": "contrast-3"
+				},
+
+				{
+					"color": "#02B797",
+					"name": "Accent",
+					"slug": "accent"
+				},
+				{
+					"color": "#02AA8C",
+					"name": "Accent / Two",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#029D81",
+					"name": "Accent / Three",
+					"slug": "accent-3"
+				},
+				{
+					"color": "#029278",
+					"name": "Accent / Four",
+					"slug": "accent-4"
+				},
+				{
+					"color": "#02866E",
+					"name": "Accent / Five",
+					"slug": "accent-5"
+				},
+				{
+					"color": "#1A099A",
+					"name": "Accent / Six",
+					"slug": "accent-6"
+				},
+				{
+					"color": "#200BC1",
+					"name": "Accent / Seven",
+					"slug": "accent-7"
+				},
+				{
+					"color": "#1D0AAE",
+					"name": "Accent / Eight",
+					"slug": "accent-8"
+				}
+			]
+        }
+    },
+    "styles": {
+
+    }
+}

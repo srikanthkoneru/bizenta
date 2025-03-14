@@ -1,0 +1,71 @@
+.wp-block-group.bizenta-header-one-light-meta {
+    margin-block-start:0;
+    font-size: var(--wp--preset--font-size--normal);
+    background-color: var(--wp--preset--color--accent-3) !important;
+    padding-top: var(--wp--preset--spacing--5);
+    padding-bottom: var(--wp--preset--spacing--5);
+}
+
+.bizenta-header-one-light-contact > p {
+    color: var(--wp--preset--color--contrast);
+    margin-block-start: 0;
+    padding: 0 1em 0 0;
+    margin: 0 1em 0 0;
+}
+
+.bizenta-header-one-light-contact > p:last-child {
+    padding: 0;
+    margin: 0;
+    border-right: 0;
+}
+
+.bizenta-header-one-light-contact > p > strong {
+    padding: 0 0.5em 0 0;
+}
+
+@media screen and (max-width: 780px) {
+    .wp-block-group.bizenta-header-one-light-meta {
+        display: none;
+        background-color: var(--wp--preset--color--base-3) !important;
+        padding-top: var(--wp--style--root--padding-left);
+        padding-bottom: var(--wp--style--root--padding-left);
+    }
+    .bizenta-header-one-light-contact > p {
+        flex-basis: 100%;
+        margin: 0.5em 0;
+    }
+    .bizenta-header-one-light-social li {
+        font-size: var(--wp--preset--font-size--medium) !important;
+        display: inline-block;
+        padding: 0 !important;
+        border-radius: 4px;
+        background: var(--wp--preset--color--base-4);
+        color: var(--wp--preset--color--contrast);
+    }
+}
+@media screen and (min-width: 781px) {
+    .bizenta-header-one-light-contact {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: row;
+        color: var(--wp--preset--color--base);
+    }
+    .bizenta-header-one-light-contact {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-flow: row;
+    }
+
+    .bizenta-header-one-light-contact > p {
+        border-right: 1px solid var(--wp--preset--color--base);
+        color: var(--wp--preset--color--base);
+    }
+    .bizenta-header-one-light-social li {
+        font-size: var(--wp--preset--font-size--medium) !important;
+        display: inline-block;
+        padding: 0 !important;
+        border-radius: 4px;
+        background: var(--wp--preset--color--accent-4);
+        color: var(--wp--preset--color--base);
+    }
+}
